@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const genAI = new GoogleGenerativeAI('Your api key');
+const genAI = new GoogleGenerativeAI('AIzaSyBlkNboW3dptH-JSyrK4Rmm9pxoqOhXnYE');
 
 export async function generateQuestions(params: {
   content?: string;
